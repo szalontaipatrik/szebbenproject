@@ -1,0 +1,125 @@
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(0, 217, 255, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(0, 225, 255, 0.4);
+  }
+  tr:hover {background-color: rgb(0, 255, 255);}
+  nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    margin-left: -37%;
+    font-weight: bold;
+    height: 80px;
+    width: 100%;
+	  font-family: 'Open Sans', sans-serif;
+  }
+  label.logo {
+    color: rgb(0, 255, 255);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover {
+    background: #00d9ff;
+    transition: .5s;
+  }
+  .checkbtn {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+
+  #navhead {
+      color: #090a0f;
+  }
+* {
+    text-decoration:none ;
+}
+body {
+	background: linear-gradient(-45deg, #0400ff, #00a2ff, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.nyilak {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  z-index: 10000;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  border: 2px solid white;
+  background: white;
+  color: #4e54c8;
+}
+
+.nyilakk {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  z-index: 10000;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  border: 2px solid white;
+  background: white;
+  color: #4e54c8;
+}
