@@ -1,0 +1,121 @@
+body{
+    background-image: url(varos.jpg);
+    background-size: cover;
+}
+
+
+li{
+    border: 2px solid purple;
+    border-radius: 0,5px;
+    display: inline-block;
+    padding: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 1px;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+ul{
+    position: absolute;
+    top: 8px;
+    left: 35%;
+}
+
+nav{
+    box-sizing: border-box;
+}
+
+span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color:blueviolet;
+    font-size: 124px;
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+  
+span::before {
+    content: "Patrik";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent 0,
+      transparent 2px,
+      white 2px,
+      white 4px
+);
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+  }
+  
+span::after {
+    content: "Patrik";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      135deg,
+      transparent 0,
+      transparent 2px,
+      white 2px,
+      white 4px
+);
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+}
+  
+span:hover:before {
+    top: 10px;
+    left: 10px;
+}
+  
+span:hover:after {
+    top: -10px;
+    left: -10px;
+}
+
+.nyilak {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    z-index: 10000;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border: 2px solid white;
+    background: white;
+    color: #4e54c8;
+}
+
+.nyilakk {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    z-index: 10000;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border: 2px solid white;
+    background: white;
+    color: #4e54c8;
+}
+  
