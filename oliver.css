@@ -1,0 +1,40 @@
+body{
+  background-image: url(hatter.gif);
+  background-size: cover;
+}
+
+.nyilak {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  z-index: 10000;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  border: 2px solid white;
+  background: white;
+  color: #4e54c8;
+}
+
+.nyilakk {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  z-index: 10000;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  border: 2px solid white;
+  background: white;
+  color: #4e54c8;
+}
